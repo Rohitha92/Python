@@ -12,12 +12,6 @@ def permute(s):
         out += [let+perm]
   return out
 
-#s1 = "abc"
-#print(permute(s1))
-#print(s1[1:])
-
-#5 ways of doing fibonacci
-#https://technobeans.com/2012/04/16/5-ways-of-fibonacci-in-python/
 
 #iterative fibonacci
 def fib_iter(n):
