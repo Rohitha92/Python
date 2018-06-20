@@ -1,12 +1,5 @@
 #are the two sentences anagrams or not.
-'''
-Notes before coding
-1. remove the spaces and change all to lower class
-2. can assign an list/array for 24 letters (say 50).
-3. add to the assigned index with the number of occurences of each letter from one sentence.
-4. delete the assigned index with the number of occurence of each letter from another sentence.
-5. If the sum of the list/array is 0 then Anagram. else Not anagram.
-'''
+
 import string    
 
 def isAnagram(a,b): #O(n^2)
@@ -61,8 +54,8 @@ def isAnagram2(a,b): #O(n)
   
   return True
 
-mystring = "public relations"
-mystring2 ="crap built on lies"
+mystring = "The Morse Code"
+mystring2 = "Here comes dots"
 print(isAnagram2(mystring, mystring2))
 
 
