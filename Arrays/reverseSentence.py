@@ -3,11 +3,6 @@
 '''
   "sun rises in the east" becomes "east the in rises sun"
 '''
-'''
-1.split he words into list on their white spaces and return the reverse list as a string
-2. with split function, the trailing and ending spaces will be removed
-'''
-
 
 def rev_sentence(mystring):
   #stringlist = mystring.split()
