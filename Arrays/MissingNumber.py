@@ -1,11 +1,5 @@
 #Array- find missing element in second list of non negative numbers
-'''
-1. brute force iterating will work with O(n^2).
-2. Sort the arrays. assign the larger array to arr1
-2. use zip function to zip the nmbers after sorting. one of the longer list(list-1) will not be in zip.
-3. compare the numbers. if not equal, return that number from list-1.
-4. if all are equal, the remaining letter in list1 is the missing number.
-'''
+
 
 def finder(arr1, arr2): #O(nlogn)
   
