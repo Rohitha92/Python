@@ -1,10 +1,4 @@
 #Array pair sum
-'''
-1. takes in a list array and number (sum up to this number)
-2. return unique pairs that sumup to this number.
-3. iterate through the list is not working 
-4. Use sets
-'''
 
 def pairsum(mylist, tn): #this is O(n)
   seen = set()
@@ -19,8 +13,6 @@ def pairsum(mylist, tn): #this is O(n)
   
   return output   
      
-     
- 
  
 mylist2 = [4,0,2,2,4]
 tn2 = 4
