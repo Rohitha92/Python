@@ -1,11 +1,5 @@
 #Balanced parenthesis check
-'''
-1. Read in the input string as a stack.
-2. pop out the string and check for equality. 
-'''
-'''
-basically reverse the string and check
-'''
+
 class Stack(object):
   
   def __init__(self):
