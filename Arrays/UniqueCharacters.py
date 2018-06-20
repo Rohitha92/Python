@@ -3,12 +3,7 @@
 '''
 Return true if all the characters are Unique
 '''
-'''
-1. Read in the characters.
-2. Add to seen "set" if not seen
-3. if is in seen, return False
-4. else return true
-'''
+
 
 def isUnique_String2(a):
   return (len(set(a)) == len(a))
